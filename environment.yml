@@ -1,0 +1,19 @@
+name: hhk
+
+dependencies:
+        - python=3.8
+        - numpy==1.21.5
+        - pandas==1.4.1
+        - scipy
+        - matplotlib
+        - pydantic
+        - seaborn
+        - pip
+        - dill
+        - pip:
+                - tensorflow==2.8.0
+                - gpflow==2.4.0
+                - tensorflow-probability==0.16.0
+                - sklearn
+                - PyYAML
+                - easydict
